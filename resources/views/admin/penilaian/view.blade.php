@@ -38,6 +38,7 @@
                                     <tr>
                                         <th>NO ABSEN</th>
                                         <th>NAMA SISWA</th>
+                                        <th>KELAS</th>
                                         <th>FILE</th>
                                         <th>STATUS PENILAIAN</th>
                                         <th>NILAI</th>
@@ -48,6 +49,7 @@
                                     <tr>
                                         <td class="text-bold-500">01</td>
                                         <td>Yunanti Richa</td>
+                                        <td>X RPL 1</td>
                                         <td>
                                             <a href="#" class="btn btn-info">
                                                 <i class="bi bi-eye-fill"></i>
@@ -58,7 +60,7 @@
                                         </td>
                                         <td>90</td>
                                         <td>
-                                            <a href="#" class="btn btn-success">
+                                            <a href="/admin/edit-penilaian" class="btn btn-success">
                                                 <i class="bi bi-pen"></i>
                                             </a>
                                         </td>
@@ -67,6 +69,7 @@
                                     <tr>
                                         <td class="text-bold-500">01</td>
                                         <td>Yunanti Richa</td>
+                                        <td>X RPL 1</td>
                                         <td>
                                             <a href="#" class="btn btn-info">
                                                 <i class="bi bi-eye-fill"></i>
@@ -77,7 +80,7 @@
                                         </td>
                                         <td>90</td>
                                         <td>
-                                            <a href="#" class="btn btn-success">
+                                            <a href="/admin/edit-penilaian" class="btn btn-success">
                                                 <i class="bi bi-pen"></i>
                                             </a>
                                         </td>
@@ -86,6 +89,7 @@
                                     <tr>
                                         <td class="text-bold-500">01</td>
                                         <td>Yunanti Richa</td>
+                                        <td>X RPL 1</td>
                                         <td>
                                             <a href="#" class="btn btn-info">
                                                 <i class="bi bi-eye-fill"></i>
@@ -96,7 +100,7 @@
                                         </td>
                                         <td>90</td>
                                         <td>
-                                            <a href="#" class="btn btn-success">
+                                            <a href="/admin/edit-penilaian" class="btn btn-success">
                                                 <i class="bi bi-pen"></i>
                                             </a>
                                         </td>
@@ -105,6 +109,7 @@
                                     <tr>
                                         <td class="text-bold-500">01</td>
                                         <td>Yunanti Richa</td>
+                                        <td>X RPL 1</td>
                                         <td>
                                             <a href="#" class="btn btn-info">
                                                 <i class="bi bi-eye-fill"></i>
@@ -115,7 +120,7 @@
                                         </td>
                                         <td>90</td>
                                         <td>
-                                            <a href="#" class="btn btn-success">
+                                            <a href="/admin/edit-penilaian" class="btn btn-success">
                                                 <i class="bi bi-pen"></i>
                                             </a>
                                         </td>

@@ -96,5 +96,8 @@ Route::get('/admin/detail-penilaian',function(){
     return view('admin.penilaian.view');
 });
 
+Route::get('/admin/edit-penilaian',function(){
+    return view('admin.penilaian.edit');
+});
 
 // End Route Untuk Admin

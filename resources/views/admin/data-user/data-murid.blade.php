@@ -34,7 +34,7 @@
                                 <th>No Absen</th>
                                 <th>Name</th>
                                 <th>Email</th>
-                                <th>NISN</th>
+                                <th>Kelas</th>
                                 <th>Status</th>
                                 <th>Action</th>
                             </tr>
@@ -44,7 +44,7 @@
                                 <td>1</td>
                                 <td>Graiden</td>
                                 <td>vehicula.aliquet@semconsequat.co.uk</td>
-                                <td>076 4820 8838</td>
+                                <td>X RPL 1</td>
                                 <td>
                                     <span class="badge bg-success">Active</span>
                                 </td>
@@ -64,7 +64,7 @@
                                 <td>2</td>
                                 <td>Nathaniel</td>
                                 <td>mi.Duis@diam.edu</td>
-                                <td>(012165) 76278</td>
+                                <td>X RPL 2</td>
                                 <td>
                                     <span class="badge bg-danger">Inactive</span>
                                 </td>

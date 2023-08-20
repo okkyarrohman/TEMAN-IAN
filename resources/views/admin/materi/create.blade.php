@@ -35,28 +35,28 @@
                                             <div class="form-group">
                                                 <label for="first-name-column">No Materi</label>
                                                 <input type="text" id="first-name-column" class="form-control"
-                                                    placeholder="First Name" name="fname-column">
+                                                    placeholder="No" name="fname-column">
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
                                                 <label for="last-name-column">Nama Materi</label>
                                                 <input type="text" id="last-name-column" class="form-control"
-                                                    placeholder="Last Name" name="lname-column">
+                                                    placeholder="Nama Materi" name="lname-column">
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
                                                 <label for="city-column">Slug</label>
                                                 <input type="text" id="city-column" class="form-control"
-                                                    placeholder="City" name="city-column">
+                                                    placeholder="Slug" name="city-column">
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-12">
                                             <div class="form-group">
                                                 <label for="country-floating">Tanggal Upload</label>
                                                 <input type="text" id="country-floating" class="form-control"
-                                                    name="country-floating" placeholder="Country">
+                                                    name="country-floating" placeholder="Tanggal Upload">
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-12">

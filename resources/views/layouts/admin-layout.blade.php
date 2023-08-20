@@ -16,6 +16,11 @@
 
     <link rel="stylesheet" href="{{ asset('dashboard/assets/css/shared/iconly.css') }}">
 
+    <link rel="stylesheet" href="{{ asset('dashboard/assets/extensions/filepond/filepond.css') }}">
+    <link rel="stylesheet"
+        href="{{ asset('dashboard/assets/extensions/filepond-plugin-image-preview/filepond-plugin-image-preview.css') }}">
+    <link rel="stylesheet" href="{{ asset('dashboard/assets/extensions/toastify-js/src/toastify.css') }}">
+    <link rel="stylesheet" href="{{ asset('dashboard/assets/css/pages/filepond.css') }}">
 </head>
 
 <body>
@@ -119,10 +124,10 @@
                             </a>
                             <ul class="submenu ">
                                 <li class="submenu-item ">
-                                    <a href="layout-default.html">Tambah Tugas</a>
+                                    <a href="/admin/tambah-tugas">Tambah Tugas</a>
                                 </li>
                                 <li class="submenu-item ">
-                                    <a href="layout-vertical-1-column.html">Lihat Tugas</a>
+                                    <a href="/admin/list-tugas">Lihat Tugas</a>
                                 </li>
                             </ul>
                         </li>
@@ -159,6 +164,10 @@
     <script src="{{ asset('dashboard/assets/js/pages/dashboard.js') }}"></script>
     <script src="{{ asset('dashboard/assets/extensions/quill/quill.min.js') }}"></script>
     <script src="{{ asset('dashboard/assets/js/pages/quill.js') }}"></script>
+
+    <script src="{{ asset('dashboard/assets/extensions/filepond/filepond.js') }}"></script>
+    <script src="{{ asset('dashboard/assets/extensions/toastify-js/src/toastify.js') }}"></script>
+    <script src="{{ asset('dashboard/assets/js/pages/filepond.js') }}"></script>
 </body>
 
 </html>

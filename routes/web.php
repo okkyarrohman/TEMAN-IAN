@@ -72,4 +72,19 @@ Route::get('/admin/list-materi',function(){
     return view('admin.materi.index');
 });
 
+Route::get('/admin/detail-materi',function(){
+    return view('admin.materi.view');
+});
+
+Route::get('/admin/list-tugas',function(){
+    return view('admin.tugas.index');
+});
+
+Route::get('/admin/tambah-tugas',function(){
+    return view('admin.tugas.create');
+});
+
+Route::get('/admin/detail-tugas',function(){
+    return view('admin.tugas.view');
+});
 // End Route Untuk Admin

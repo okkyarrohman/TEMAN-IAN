@@ -11,6 +11,9 @@
     <link rel="shortcut icon" href="{{ asset('dashboard/assets/images/logo/favicon.svg') }}" type="image/x-icon">
     <link rel="shortcut icon" href="{{ asset('dashboard/assets/images/logo/favicon.png') }}" type="image/png">
 
+    <link rel="stylesheet" href="{{ asset('dashboard/assets/extensions/quill/quill.snow.css') }}">
+    <link rel="stylesheet" href="{{ asset('dashboard/assets/extensions/quill/quill.bubble.css') }}">
+
     <link rel="stylesheet" href="{{ asset('dashboard/assets/css/shared/iconly.css') }}">
 
 </head>
@@ -66,7 +69,7 @@
                     <ul class="menu">
                         <li class="sidebar-title">Menu</li>
                         <li class="sidebar-item active ">
-                            <a href="index.html" class='sidebar-link'>
+                            <a href="/admin-dashboard" class='sidebar-link'>
                                 <i class="bi bi-grid-fill"></i>
                                 <span>Dashboard</span>
                             </a>
@@ -79,13 +82,13 @@
                             </a>
                             <ul class="submenu ">
                                 <li class="submenu-item ">
-                                    <a href="index.html" class='sidebar-link'>
+                                    <a href="/admin/data-guru" class='sidebar-link'>
                                         <i class="bi bi-people-fill"></i>
                                         <span>Data Guru</span>
                                     </a>
                                 </li>
                                 <li class="submenu-item ">
-                                    <a href="index.html" class='sidebar-link'>
+                                    <a href="/admin/data-murid" class='sidebar-link'>
                                         <i class="bi bi-people-fill"></i>
                                         <span>Data Murid</span>
                                     </a>
@@ -100,10 +103,10 @@
                             </a>
                             <ul class="submenu ">
                                 <li class="submenu-item ">
-                                    <a href="layout-default.html">Tambah Materi</a>
+                                    <a href="/admin/tambah-materi">Tambah Materi</a>
                                 </li>
                                 <li class="submenu-item ">
-                                    <a href="layout-vertical-1-column.html">Lihat Materi</a>
+                                    <a href="/admin/list-materi">List Materi</a>
                                 </li>
                             </ul>
                         </li>
@@ -154,7 +157,8 @@
     <!-- Need: Apexcharts -->
     <script src="{{ asset('dashboard/assets/extensions/apexcharts/apexcharts.min.js') }}"></script>
     <script src="{{ asset('dashboard/assets/js/pages/dashboard.js') }}"></script>
-
+    <script src="{{ asset('dashboard/assets/extensions/quill/quill.min.js') }}"></script>
+    <script src="{{ asset('dashboard/assets/js/pages/quill.js') }}"></script>
 </body>
 
 </html>

@@ -56,4 +56,20 @@ Route::get('/admin-dashboard',function(){
     return view('admin.dashboard');
 });
 
+Route::get('/admin/data-murid',function(){
+    return view('admin.data-user.data-murid');
+});
+
+Route::get('/admin/data-guru',function(){
+    return view('admin.data-user.data-guru');
+});
+
+Route::get('/admin/tambah-materi',function(){
+    return view('admin.materi.create');
+});
+
+Route::get('/admin/list-materi',function(){
+    return view('admin.materi.index');
+});
+
 // End Route Untuk Admin

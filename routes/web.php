@@ -87,4 +87,14 @@ Route::get('/admin/tambah-tugas',function(){
 Route::get('/admin/detail-tugas',function(){
     return view('admin.tugas.view');
 });
+
+Route::get('/admin/list-penilaian',function(){
+    return view('admin.penilaian.index');
+});
+
+Route::get('/admin/detail-penilaian',function(){
+    return view('admin.penilaian.view');
+});
+
+
 // End Route Untuk Admin

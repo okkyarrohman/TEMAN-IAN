@@ -134,7 +134,7 @@
 
                         <li class="sidebar-item  ">
                             <a href="/admin/list-penilaian" class='sidebar-link'>
-                                <i class="bi bi-grid-fill"></i>
+                                <i class="bi bi-list-columns"></i>
                                 <span>Penilaian</span>
                             </a>
                         </li>

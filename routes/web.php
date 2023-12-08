@@ -24,12 +24,22 @@ Route::get('/ss', function () {
 
 
 
+
+
+// Auth
+
+
+
+
+
+
+
 // Route untuk Murid
-Route::get('/sign.in', function () {
+Route::get('/login', function () {
     return view('sign-in');
 });
 
-Route::get('/sign.up', function () {
+Route::get('/register', function () {
     return view('sign-up');
 });
 
@@ -52,29 +62,23 @@ Route::get('',function(){
 
 
 // Route Untuk Admin
-Route::get('/admin-dashboard',function(){
+Route::get('/admin/dashboard',function(){
     return view('admin.dashboard');
 });
 
-Route::get('/admin/data-murid',function(){
-    return view('admin.data-user.data-murid');
+Route::get('/admin/data-user',function(){
+    return view('admin.data-user.index');
 });
 
-Route::get('/admin/data-guru',function(){
-    return view('admin.data-user.data-guru');
+Route::get('/admin/data-user/1',function(){
+    return view('admin.data-user.read');
 });
 
-Route::get('/admin/tambah-materi',function(){
+
+Route::get('/admin/materi',function(){
     return view('admin.materi.create');
 });
 
-Route::get('/admin/list-materi',function(){
-    return view('admin.materi.index');
-});
-
-Route::get('/admin/detail-materi',function(){
-    return view('admin.materi.view');
-});
 
 Route::get('/admin/list-tugas',function(){
     return view('admin.tugas.index');

@@ -31,8 +31,8 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="logo">
                             <a href="index.html">
-                                {{-- <img src="{{ asset('dashboard/assets/images/logo/logo.svg') }}"
-                                    alt="Logo" srcset=""> --}}
+                                <img src="{{ asset('nonUser/img/logo.png') }}" alt="Logo" width="100"
+                                    height="250">
                             </a>
                         </div>
                         <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
@@ -82,56 +82,26 @@
                             </a>
                         </li>
 
-                        <li class="sidebar-item  has-sub">
-                            <a href="#" class='sidebar-link'>
-                                <i class="bi bi-people-fill"></i>
-                                <span>Data Users</span>
+
+                        <li class="sidebar-item  ">
+                            <a href="/admin/list-penilaian" class='sidebar-link'>
+                                <i class="bi bi-list-people"></i>
+                                <span>Data User</span>
                             </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="/admin/data-guru" class='sidebar-link'>
-                                        <i class="bi bi-people-fill"></i>
-                                        <span>Data Guru</span>
-                                    </a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="/admin/data-murid" class='sidebar-link'>
-                                        <i class="bi bi-people-fill"></i>
-                                        <span>Data Murid</span>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
 
-                        <li class="sidebar-item  has-sub">
-                            <a href="#" class='sidebar-link'>
+                        <li class="sidebar-item  ">
+                            <a href="/admin/list-penilaian" class='sidebar-link'>
                                 <i class="bi bi-book-fill"></i>
                                 <span>Materi</span>
                             </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="/admin/tambah-materi">Tambah Materi</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="/admin/list-materi">List Materi</a>
-                                </li>
-                            </ul>
                         </li>
 
-
-                        <li class="sidebar-item  has-sub">
-                            <a href="#" class='sidebar-link'>
+                        <li class="sidebar-item  ">
+                            <a href="/admin/list-penilaian" class='sidebar-link'>
                                 <i class="bi bi-list-ul"></i>
                                 <span>Tugas</span>
                             </a>
-                            <ul class="submenu ">
-                                <li class="submenu-item ">
-                                    <a href="/admin/tambah-tugas">Tambah Tugas</a>
-                                </li>
-                                <li class="submenu-item ">
-                                    <a href="/admin/list-tugas">Lihat Tugas</a>
-                                </li>
-                            </ul>
                         </li>
 
                         <li class="sidebar-item  ">
@@ -155,7 +125,7 @@
         @yield('content')
     </div>
 
-    @include('layouts.extras.footer')
+
 
 
     <script src="{{ asset('dashboard/assets/js/bootstrap.js') }}"></script>
